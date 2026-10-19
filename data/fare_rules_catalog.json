@@ -1,0 +1,276 @@
+[
+  {
+    "id": "RULE-6E-SAVER",
+    "carrier_code": "6E",
+    "carrier_name": "IndiGo",
+    "service_type": "Flight",
+    "sector": "Domestic",
+    "fare_class": "Saver",
+    "baggage_allowance": {
+      "checkin": "15 kg (1 piece)",
+      "cabin": "7 kg (1 handbag)"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "More than 96 hours before departure (> 4 days)",
+        "min_hours": 96,
+        "max_hours": 9999,
+        "airline_penalty": 3500.0,
+        "description": "INR 3,500 or airfare charges (whichever is lower). Balance refunded."
+      },
+      {
+        "time_window": "Between 96 hours and 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 96,
+        "airline_penalty": 4000.0,
+        "description": "INR 4,000 or airfare charges (whichever is lower). Balance refunded."
+      },
+      {
+        "time_window": "Less than 2 hours before departure (No-Show)",
+        "min_hours": 0,
+        "max_hours": 2,
+        "airline_penalty": -1.0,
+        "description": "Non-refundable. Only statutory airport taxes (UDF/PSF) are refundable."
+      }
+    ],
+    "rescheduling_slabs": [
+      {
+        "time_window": "More than 96 hours before departure",
+        "min_hours": 96,
+        "max_hours": 9999,
+        "change_fee": 2750.0,
+        "description": "INR 2,750 per sector per passenger plus any difference in airfare."
+      },
+      {
+        "time_window": "Between 96 hours and 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 96,
+        "change_fee": 3250.0,
+        "description": "INR 3,250 per sector per passenger plus any difference in airfare."
+      }
+    ],
+    "citation": "6E-DOM-SAVER-CAT16",
+    "notes": "Infant tickets and seat select charges are non-refundable."
+  },
+  {
+    "id": "RULE-6E-FLEXI",
+    "carrier_code": "6E",
+    "carrier_name": "IndiGo",
+    "service_type": "Flight",
+    "sector": "Domestic",
+    "fare_class": "Flexi Plus",
+    "baggage_allowance": {
+      "checkin": "15 kg (1 piece)",
+      "cabin": "7 kg (1 handbag)"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "Up to 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 9999,
+        "airline_penalty": 500.0,
+        "description": "Flat nominal penalty of INR 500 per passenger per sector."
+      },
+      {
+        "time_window": "Less than 2 hours before departure (No-Show)",
+        "min_hours": 0,
+        "max_hours": 2,
+        "airline_penalty": -1.0,
+        "description": "Non-refundable after 2-hour cutoff. Only statutory taxes refunded."
+      }
+    ],
+    "rescheduling_slabs": [
+      {
+        "time_window": "Up to 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 9999,
+        "change_fee": 0.0,
+        "description": "Unlimited zero date change fee. Customer pays only difference in airfare."
+      }
+    ],
+    "citation": "6E-DOM-FLEXI-CAT16",
+    "notes": "Includes complimentary standard seat selection and inflight snack combo."
+  },
+  {
+    "id": "RULE-AI-COMFORT",
+    "carrier_code": "AI",
+    "carrier_name": "Air India",
+    "service_type": "Flight",
+    "sector": "Domestic",
+    "fare_class": "Economy Comfort",
+    "baggage_allowance": {
+      "checkin": "20 kg (1 piece)",
+      "cabin": "7 kg (1 handbag)"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "More than 72 hours before departure",
+        "min_hours": 72,
+        "max_hours": 9999,
+        "airline_penalty": 3000.0,
+        "description": "INR 3,000 per sector per passenger."
+      },
+      {
+        "time_window": "Between 72 hours and 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 72,
+        "airline_penalty": 3500.0,
+        "description": "INR 3,500 per sector per passenger."
+      },
+      {
+        "time_window": "Within 2 hours of departure (No-Show)",
+        "min_hours": 0,
+        "max_hours": 2,
+        "airline_penalty": -1.0,
+        "description": "Ticket forfeited (No-show). Only refundable airport levies (UDF/PSF) returned."
+      }
+    ],
+    "rescheduling_slabs": [
+      {
+        "time_window": "Up to 2 hours before departure",
+        "min_hours": 2,
+        "max_hours": 9999,
+        "change_fee": 2500.0,
+        "description": "INR 2,500 per passenger per sector plus airfare difference."
+      }
+    ],
+    "citation": "AI-DOM-COMFORT-CAT16",
+    "notes": "Full service airline including complimentary hot meal on flights above 75 minutes."
+  },
+  {
+    "id": "RULE-IX-GULF",
+    "carrier_code": "IX",
+    "carrier_name": "Air India Express",
+    "service_type": "Flight",
+    "sector": "International (Gulf/GCC)",
+    "fare_class": "Xpress Value",
+    "baggage_allowance": {
+      "checkin": "30 kg (up to 2 pieces)",
+      "cabin": "7 kg"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "More than 72 hours before departure",
+        "min_hours": 72,
+        "max_hours": 9999,
+        "airline_penalty": 4500.0,
+        "description": "INR 4,500 per passenger per sector."
+      },
+      {
+        "time_window": "Between 72 hours and 4 hours before departure",
+        "min_hours": 4,
+        "max_hours": 72,
+        "airline_penalty": 6000.0,
+        "description": "INR 6,000 per passenger per sector."
+      },
+      {
+        "time_window": "Within 4 hours of departure (No-Show)",
+        "min_hours": 0,
+        "max_hours": 4,
+        "airline_penalty": -1.0,
+        "description": "Strictly non-refundable. Forfeited under Gulf carrier no-show regulations."
+      }
+    ],
+    "rescheduling_slabs": [
+      {
+        "time_window": "Up to 4 hours before departure",
+        "min_hours": 4,
+        "max_hours": 9999,
+        "change_fee": 3500.0,
+        "description": "INR 3,500 change fee plus airfare difference."
+      }
+    ],
+    "citation": "IX-INTL-GULF-CAT16",
+    "notes": "Critical corridor: India (Kerala/Mumbai/Delhi) to UAE (DXB/SHJ/AUH), Saudi Arabia, Qatar, Oman."
+  },
+  {
+    "id": "RULE-IRCTC-CONFIRMED",
+    "carrier_code": "IRCTC",
+    "carrier_name": "Indian Railways (IRCTC)",
+    "service_type": "Train",
+    "sector": "Domestic Rail",
+    "fare_class": "Confirmed Ticket",
+    "baggage_allowance": {
+      "checkin": "40 kg (Sleeper) / 50 kg (AC Tier)",
+      "cabin": "Hand luggage under berth"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "More than 48 hours before train departure",
+        "min_hours": 48,
+        "max_hours": 9999,
+        "airline_penalty": 180.0,
+        "description": "Flat clerkage fee: 1A/EC: ₹240, 2A/1AC: ₹200, 3A/3E/CC: ₹180, SL: ₹120, 2S: ₹60."
+      },
+      {
+        "time_window": "Between 48 hours and 12 hours before train departure",
+        "min_hours": 12,
+        "max_hours": 48,
+        "airline_penalty": 0.25,
+        "description": "25% deduction of ticket fare (subject to minimum clerkage charge per passenger)."
+      },
+      {
+        "time_window": "Between 12 hours and 4 hours before train departure (Chart Preparation)",
+        "min_hours": 4,
+        "max_hours": 12,
+        "airline_penalty": 0.50,
+        "description": "50% deduction of ticket fare (subject to minimum clerkage charge per passenger)."
+      },
+      {
+        "time_window": "Less than 4 hours before train departure / After Chart Preparation",
+        "min_hours": 0,
+        "max_hours": 4,
+        "airline_penalty": -1.0,
+        "description": "Zero refund on confirmed tickets after chart preparation. TDR filing required for medical emergencies."
+      }
+    ],
+    "rescheduling_slabs": [],
+    "citation": "IRCTC-RAIL-SLAB-2026",
+    "notes": "Waitlisted (WL) or RAC tickets cancelled before chart preparation incur only flat clerkage fee of ₹60."
+  },
+  {
+    "id": "RULE-BUS-INTERCITY",
+    "carrier_code": "BUS",
+    "carrier_name": "Akbar Travels Intercity Bus Network",
+    "service_type": "Bus",
+    "sector": "Intercity Luxury Sleeper / Volvo",
+    "fare_class": "Standard Bus",
+    "baggage_allowance": {
+      "checkin": "20 kg per passenger",
+      "cabin": "1 small personal backpack"
+    },
+    "cancellation_slabs": [
+      {
+        "time_window": "More than 24 hours before boarding time",
+        "min_hours": 24,
+        "max_hours": 9999,
+        "airline_penalty": 0.10,
+        "description": "10% deduction of bus ticket base fare."
+      },
+      {
+        "time_window": "Between 12 hours and 24 hours before boarding",
+        "min_hours": 12,
+        "max_hours": 24,
+        "airline_penalty": 0.25,
+        "description": "25% deduction of bus ticket base fare."
+      },
+      {
+        "time_window": "Between 2 hours and 12 hours before boarding",
+        "min_hours": 2,
+        "max_hours": 12,
+        "airline_penalty": 0.50,
+        "description": "50% deduction of bus ticket base fare."
+      },
+      {
+        "time_window": "Less than 2 hours before boarding time",
+        "min_hours": 0,
+        "max_hours": 2,
+        "airline_penalty": -1.0,
+        "description": "Zero refund within 2 hours of departure."
+      }
+    ],
+    "rescheduling_slabs": [],
+    "citation": "BUS-SLAB-STANDARD",
+    "notes": "Bus rescheduling is subject to individual private bus operator approval."
+  }
+]

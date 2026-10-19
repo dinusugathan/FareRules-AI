@@ -1,0 +1,68 @@
+{
+  "total_test_cases": 6,
+  "passed_cases": 6,
+  "pass_rate_percentage": 100.0,
+  "zero_hallucination_rate": 100.0,
+  "results": [
+    {
+      "test_id": "EVAL-FARE-01",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 16.2,
+      "details": "Quote: 850.0 | Citations: ['6E-DOM-SAVER-CAT16', 'AKBAR-SERVICE-FEE-2026'] | Latency: 16.20ms"
+    },
+    {
+      "test_id": "EVAL-FARE-02",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 6.34,
+      "details": "Quote: None | Citations: ['6E-DOM-FLEXI-CAT16'] | Latency: 6.34ms"
+    },
+    {
+      "test_id": "EVAL-FARE-03",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 8.05,
+      "details": "Quote: 0.0 | Citations: ['IX-INTL-GULF-CAT16', 'AI-DOM-COMFORT-CAT16'] | Latency: 8.05ms"
+    },
+    {
+      "test_id": "EVAL-FARE-04",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 10.8,
+      "details": "Quote: 0.0 | Citations: ['IRCTC-RAIL-SLAB-2026', 'AKBAR-SERVICE-FEE-2026'] | Latency: 10.80ms"
+    },
+    {
+      "test_id": "EVAL-FARE-05",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 10.03,
+      "details": "Quote: None | Citations: ['AKBAR-SERVICE-FEE-2026', 'BUS-SLAB-STANDARD'] | Latency: 10.03ms"
+    },
+    {
+      "test_id": "EVAL-FARE-06",
+      "passed": true,
+      "correct_penalty": true,
+      "correct_agency_fee": true,
+      "correct_refund": true,
+      "citation_matched": true,
+      "latency_ms": 5.76,
+      "details": "Quote: None | Citations: ['AKBAR-SERVICE-FEE-2026'] | Latency: 5.76ms"
+    }
+  ]
+}

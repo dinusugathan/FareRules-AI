@@ -1,0 +1,18 @@
+{
+  "agency_name": "Akbar Travels India Pvt Ltd",
+  "portal_version": "2026.1",
+  "service_charges": {
+    "domestic_flight_cancellation_b2c": 350.0,
+    "domestic_flight_cancellation_b2b": 200.0,
+    "international_flight_cancellation_b2c": 750.0,
+    "international_flight_cancellation_b2b": 450.0,
+    "irctc_train_cancellation": 50.0,
+    "intercity_bus_cancellation": 30.0
+  },
+  "waiver_rules": {
+    "medical_emergency": "Airline waivers for passenger hospitalization require submitting Doctor Certificate + Hospital Admission Slip within 48 hours. Subject to airline approval. Akbar agency fee is waived.",
+    "flight_cancellation_by_airline": "Full 100% refund of airline fare and taxes if flight cancelled or delayed by > 3 hours by carrier. Zero Akbar fee deducted.",
+    "b2b_agent_convenience": "B2B Diamond/Platinum agents receive priority GDS ticket voiding within 30 minutes of issuance with zero airline penalty (GDS Void Window)."
+  },
+  "citation_tag": "AKBAR-SERVICE-FEE-2026"
+}
